@@ -31,6 +31,7 @@ Providing a picture of critical settings to start with.  Will add explaination l
 Application Startup Sequence appears to be an important issue.  
 
 - Start up qjackctl 
+  - Take Picture to show defaults, in case it gets screwed up...(from experience)
   - Pop open Settings and verify  
     - Interface: hw:CODEC,0
     - Sample Rate: 44100
@@ -42,6 +43,7 @@ Application Startup Sequence appears to be an important issue.
     - You should now see "System" in Jack Connections
 
 - Start up Guitarix
+  - Take Picture to show defaults in case it gets screwed up.
   - Make the same connections shown in my picture between gx_head_amp, gx_head_fx, and system.
   - You should be able to play through the amp at this point. 
 
