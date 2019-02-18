@@ -6,12 +6,12 @@
 This documents my working Linux DAW, because it was not easy to figure out. In fact it was painfully hard to figure out even with the easiest apps available for doing amp and pedal sampling along with recording. I used Ubuntu Studio previously and received similar results on a laptop, but did not document.  So, this time, I am taking the time for that.   
 
 # Hardware:
-1. Dell T3500 12GB RAM, SATA Drive, 4 Core x 2 Thread Intel Xeon
-2. Berringer UM2 USB Audio Interface plugged into USB 2 Port
+- Dell T3500 12GB RAM, SATA Drive, 4 Core x 2 Thread Intel Xeon
+- Berringer UM2 USB Audio Interface plugged into USB 2 Port
   - Instrument Gain Knob Dimed
   - Output Knob at 2:00
-3. Edifier Studio Monitors connected to Berringer with stereo cable
-4. Electric Guitar physically jacked into Berringer Instrument Port
+- Edifier Studio Monitors connected to Berringer with stereo cable
+- Electric Guitar physically jacked into Berringer Instrument Port
 
 # Main Packages added:
 1. Audacity - Pretty "...simple", verging on intuitive. Good docs and userbase. Nice results on playback. 
