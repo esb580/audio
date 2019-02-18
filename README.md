@@ -3,11 +3,11 @@
 
 # Description: 
 
-This documents my working Linux DAW, because it was not easy to figure out. In fact it was painfully hard to figure out even with the easiest apps available for doing amp and pedal sampling along with recording. I used Ubuntu Studio previously and received similar results on a laptop, but did not document.  So, this time, I am taking the time for that.   
+This documents my working Linux DAW, because it was not easy to figure out. In fact, it was painfully hard to figure out even with the easiest apps. My goal is doing amp and pedal sampling along with recording. I used Ubuntu Studio previously and received similar results on a laptop, but did not document.  So, this time, I am taking the time for that.   
 
-# Hardware:
-- Dell T3500 12GB RAM, SATA Drive, 4 Core x 2 Thread Intel Xeon
-- Berringer UM2 USB Audio Interface plugged into USB 2 Port
+# Hardware Used:
+- Dell T3500 12GB RAM, SATA Drive, 4 core x 2 thread Intel Xeon X5687 @ 3.60GHz
+- Berringer UM2 USB Audio Interface plugged into USB 2.0 port
   - Instrument Gain Knob Dimed
   - Output Knob at 2:00
 - Edifier Studio Monitors connected to Berringer with stereo cable
@@ -15,7 +15,7 @@ This documents my working Linux DAW, because it was not easy to figure out. In f
 
 # Main Packages added:
 1. Audacity - Pretty "...simple", verging on intuitive. Good docs and userbase. Nice results on playback. 
-2. Guitarix - Was able to get a clean sound without too much tweaking, and add virtual representations of pedals I am familiar with. GUI makes it pretty nice to figure out what you are doing on a virtual level, and the controls are easy to understand. 
+2. Guitarix - Was able to get a clean sound without too much tweaking, and add virtual representations of pedals I am familiar with. GUI makes it pretty nice to figure out what you are doing on a virtual level, and the controls are easy to understand. One exception is the knob controls are funky and take a little practice.  
 3. Jack/qjackctl - Needed some mental leaps to get going, but then it was mainly a game of follow the signal path.  I guess it is as simple as it can be, but still requires a lot of up front research.  
 
 # Other Packages tried:
