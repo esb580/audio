@@ -12,6 +12,7 @@ This documents my working Linux DAW, because it was not easy to figure out. In f
   - Output Knob at 2:00
   - Edifier speakers connected to Behringer rear ports with stereo cable 
   - Electric Guitar physically jacked into Behringer front/middle Instrument Port
+- Note: My resources are not impacted by this setup hardly at all. So, I assume a smaller workstation would be fine, too.
 
 # Main Packages added:
 1. Audacity - Pretty "...simple", verging on intuitive. Good docs and userbase. Nice results on playback. 
