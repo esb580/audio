@@ -55,6 +55,12 @@ Application Startup Sequence appears to be an important issue.
     - Recording Device: gx_head_fx
     - Recording Channel: 1(Mono) Recording Channel
     - Playback Device: System
+  - On the audacity Recording Level control, click "Start Monitoring"
+    - You should see in the Connections of qjackctl, a new Wriatable Client/Input Port called PortAudio
+    - I did not have to make a connection for this, as it automagically connected up to out_0 on gx_head_fx. This thankfully worked out just right, unlike a lot of other stuff.  
+  - At this point you can add a mono track, click record, and start rocking.  
+    
+- TODO: Add detailed MOP for recording process, and notes from more extensive testing.   
     
 - Reference Documents:
   - https://wiki.linuxaudio.org/wiki/list_of_jack_frame_period_settings_ideal_for_usb_interface
