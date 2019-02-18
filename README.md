@@ -15,7 +15,7 @@ This documents my working Linux DAW, because it was not easy to figure out. In f
 - Note: My resources are not impacted by this setup hardly at all. So, I assume a smaller workstation would be fine, too.
 
 # Main Packages added:
-1. Audacity - Pretty "...simple", verging on intuitive. Good docs and userbase. Nice results on playback. 
+1. Audacity - Pretty "...simple", verging on intuitive. Good docs and user base. Nice results on playback. 
 2. Guitarix - Was able to get a clean sound without too much tweaking, and add virtual representations of pedals I am familiar with. GUI makes it pretty nice to figure out what you are doing on a virtual level, and the controls are easy to understand. One exception is the knob controls are funky and take a little practice.  
 3. Jack/qjackctl - Needed some mental leaps to get going, but then it was mainly a game of follow the signal path.  I guess it is as simple as it can be, but still requires a lot of up front research.  
 
@@ -26,7 +26,7 @@ This documents my working Linux DAW, because it was not easy to figure out. In f
  
 # Setup:
 
-Providing a picture of critical settings to start with.  Will add explaination later.  
+Providing a picture of critical settings to start with.  Will add explanation later.  
 ![alt text](https://github.com/esb580/audio/blob/master/audio-daw-linux-settings.jpg)
 
 Application Startup Sequence appears to be an important issue.  
@@ -39,7 +39,7 @@ Application Startup Sequence appears to be an important issue.
     - Frames/Period: Type in 147, Don't use drop down. *Document referenced*
     - Periods/Buffer: 3
   - Open the Connections - This shows how you are patched through the various inputs and outputs of your applications and system. 
-    - Note that your Instrument Port on Berringer Maps to capture_2, while capture_1 = Microphone Port
+    - Note that your Instrument Port on Behringer Maps to capture_2, while capture_1 = Microphone Port
   - Click Start
     - You should now see "System" in Jack Connections
 
@@ -56,7 +56,7 @@ Application Startup Sequence appears to be an important issue.
     - Recording Channel: 1(Mono) Recording Channel
     - Playback Device: System
   - On the audacity Recording Level control, click "Start Monitoring"
-    - You should see in the Connections of qjackctl, a new Wriatable Client/Input Port called PortAudio
+    - You should see in the Connections of qjackctl, a new Writable Client/Input Port called PortAudio
     - I did not have to make a connection for this, as it automagically connected up to out_0 on gx_head_fx. This thankfully worked out just right, unlike a lot of other stuff.  
   - At this point you can add a mono track, click record, and start rocking.  
     
