@@ -1,17 +1,17 @@
 # audio
-# Berringer/Jack/Guitarix/Audacity Setup on Ubuntu 18.04
+# Behringer UM2/Jack/Guitarix/Audacity Setup on Ubuntu 18.04
 
 # Description: 
 
-This documents my working Linux DAW, because it was not easy to figure out. In fact, it was painfully hard to figure out even with the easiest apps. My goal is doing amp and pedal sampling along with recording on my favorite at-home distro. I used Ubuntu Studio previously and received similar results on a laptop, but did not document.  So, this time, I am taking the time for that.   
+This documents my working Linux DAW, because it was not easy to figure out. In fact, it was painfully hard to figure out even with the easiest apps. My goal is doing amp and pedal sampling along with recording on my favorite at-home distro. I used Ubuntu Studio previously and received similar results on a laptop, but did not document.  So, this time, I am not making that mistake.   
 
 # Hardware Used:
 - Dell T3500 12GB RAM, SATA Drive, 4 core x 2 thread Intel Xeon X5687 @ 3.60GHz
-- Berringer UM2 USB Audio Interface plugged into USB 2.0 port
+- Behringer U-Phoria UM2 USB Audio Interface plugged into USB 2.0 port
   - Instrument Gain Knob Dimed
   - Output Knob at 2:00
-- Edifier Studio Monitors connected to Berringer with stereo cable
-- Electric Guitar physically jacked into Berringer Instrument Port
+  - Edifier speakers connected to Behringer rear ports with stereo cable 
+  - Electric Guitar physically jacked into Behringer front/middle Instrument Port
 
 # Main Packages added:
 1. Audacity - Pretty "...simple", verging on intuitive. Good docs and userbase. Nice results on playback. 
