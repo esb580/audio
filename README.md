@@ -3,7 +3,7 @@
 
 # Description: 
 
-This documents my working Linux DAW, because it was not easy to figure out. In fact, it was painfully hard to figure out even with the easiest apps. My goal is doing amp and pedal sampling along with recording. I used Ubuntu Studio previously and received similar results on a laptop, but did not document.  So, this time, I am taking the time for that.   
+This documents my working Linux DAW, because it was not easy to figure out. In fact, it was painfully hard to figure out even with the easiest apps. My goal is doing amp and pedal sampling along with recording on my favorite at-home distro. I used Ubuntu Studio previously and received similar results on a laptop, but did not document.  So, this time, I am taking the time for that.   
 
 # Hardware Used:
 - Dell T3500 12GB RAM, SATA Drive, 4 core x 2 thread Intel Xeon X5687 @ 3.60GHz
