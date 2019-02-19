@@ -35,9 +35,10 @@ Application Startup Sequence appears to be an important issue.
   - Take Picture to show defaults, in case it gets screwed up...(from experience)
   - Pop open Settings and verify  
     - Interface: hw:CODEC,0
-    - Sample Rate: 44100
-    - Frames/Period: Type in 147, Don't use drop down. *Document referenced*
+    - Sample Rate: 48000
+    - Frames/Period: 128
     - Periods/Buffer: 3
+    - The following show the latest settings. The Frames/Period have to work out to a multiple of 16 for the Guitarix convolver to work.  These settings have the smallest latency, while maintaining a multiple of 16 for "Frames": 
     - ![alt text](https://github.com/esb580/audio/blob/master/jack_settings_improved.png)
   - Open the Connections - This shows how you are patched through the various inputs and outputs of your applications and system. 
     - Note that your Instrument Port on Behringer Maps to capture_2, while capture_1 = Microphone Port
