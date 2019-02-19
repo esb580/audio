@@ -38,6 +38,7 @@ Application Startup Sequence appears to be an important issue.
     - Sample Rate: 44100
     - Frames/Period: Type in 147, Don't use drop down. *Document referenced*
     - Periods/Buffer: 3
+    - ![alt text](https://github.com/esb580/audio/blob/master/jack_settings_improved.png)
   - Open the Connections - This shows how you are patched through the various inputs and outputs of your applications and system. 
     - Note that your Instrument Port on Behringer Maps to capture_2, while capture_1 = Microphone Port
   - Click Start
